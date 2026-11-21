@@ -1,0 +1,96 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #292929; 
+  color: white;
+}
+
+.mainContaner{
+    /* background-color: red; */
+    width: 100%;
+    max-width: 60rem;
+    margin: auto;
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+header{
+  position: sticky;
+  top: 0px;
+   background-color: #292929; 
+   padding: 1rem 0;
+   border-radius: 5px; 
+}
+
+.inputContainer{
+    
+    /* padding: 10px; */
+    display: flex;
+    justify-content: space-between;
+    /* height: 1.6rem; */
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+#taskInput{
+    width: 100%;
+  padding:8px 10px; 
+border-radius: 5px;
+outline: none;
+ border: 1px solid #292929;
+}
+
+.inputContainer .addBtn{
+ padding:8px 10px; 
+border-radius: 5px;
+outline: none;
+ border: 1px solid #292929;
+}
+
+.todoContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.todoContainer .todo{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(179, 117, 236);
+padding: 10px;
+border-radius: 5px;
+
+}
+
+.todoContainer .todo button{
+   padding:6px 10px; 
+   border-radius: 5px;
+   outline: none;
+   border: 1px solid #292929;
+}
+
+ .todoContainer .todo  .saveBtn{
+display: none;
+border: 1px solid #292929;
+}
+
+.todoContainer .todo  #editInput{
+  display: none;
+ padding: 8px 6px  ;
+ border-radius: 5px;
+ outline: none;
+ border: 1px solid #292929;
+}
