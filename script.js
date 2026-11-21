@@ -58,21 +58,6 @@ async function fetechData() {
         editInput.style.display = "inline";
       });
 
-      // saveBtn.addEventListener("click", async () => {
-      //   // console.log(obj.id)
-      //   let editValue = editInput.value;
-      //   let respons = await updateData(obj.id, editValue);
-      //   if (respons.status === 200) {
-      //     edit.style.display = "inline";
-      //     saveBtn.style.display = "none";
-      //     paraText.style.display = "inline";
-      //     editInput.style.display = "none";
-      //     fetechData()
-      //   }
-      // });
-
-      //*GPT
-
       saveBtn.addEventListener("click", async () => {
         let editValue = editInput.value;
 
